@@ -8,61 +8,64 @@
   </head>
   <body>
     <header>
-      <h2>Moja Strona</h2>
+      <div class="logo">Logo</div>
       <nav>
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#contact">contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
+      <div class="color-switch">
+        <input type="checkbox" id="colorSwitch" />
+        <label for="colorSwitch"></label>
+      </div>
     </header>
 
     <section id="home">
-      <h1>Some text!</h1>
+      <h2>Welcome to the homepage!</h2>
       <p>
-        Tutaj możesz umieścić główne informacje o Twojej stronie, prezentację
-        produktów lub usług, oraz inne istotne treści.
+        Here you can place the main information about your website, presentation
+        of products or services, and other important content.
       </p>
 
       <div class="featured-products">
-        <h3>Nasze produkty/usługi:</h3>
+        <h3>Our products/services:</h3>
         <ul>
-          <li>something</li>
-          <li>something 2</li>
-          <li>something 3</li>
+          <li>Product/Service 1</li>
+          <li>Product/Service 2</li>
+          <li>Product/Service 3</li>
         </ul>
       </div>
 
       <div class="call-to-action">
-        <h3>Some text!</h3>
+        <h3>Explore our offerings!</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
-          praesentium itaque voluptatem labore asperiores adipisci sint. Sequi,
-          quod reiciendis eos deserunt pariatur sapiente optio distinctio at
-          magnam numquam sunt quae.
+          Feel free to explore our wide range of products/services and take
+          advantage of our promotions.
         </p>
-        <a href="#contact">contact us</a>
+        <a href="#contact">Contact us</a>
       </div>
     </section>
 
     <section id="about">
-      <h2>O nas</h2>
-      <p>Trochę informacji o naszej firmie, zespołach, działalności, itp.</p>
+      <h2>About Us</h2>
+      <p>Some information about our company, teams, activities, etc.</p>
     </section>
 
     <section id="contact">
-      <h2>Kontakt</h2>
+      <h2>Contact Us</h2>
       <form action="#" method="POST">
-        <label for="name">Imię:</label>
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
 
         <label for="email">Email:</label>
         <input type="text" id="email" name="email" required />
 
-        <label for="message">Wiadomość:</label>
+        <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
 
-        <input type="submit" value="Wyślij" />
+        <input type="submit" value="Send" />
       </form>
     </section>
   </body>
+  <script src="./src/script.js"></script>
 </html>
