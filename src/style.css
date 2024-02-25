@@ -98,7 +98,8 @@ header {
   top: 0;
   z-index: 1000;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: space-around;
   align-items: center;
   transition: background-color 0.3s ease;
 }
@@ -123,7 +124,7 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-nav a::selection {
+nav a:focus {
   background-color: var(--textColor2);
 }
 
@@ -173,11 +174,11 @@ nav a::selection {
   transform: translateX(20px);
 }
 
-/* style */
-.scrolled {
-  background-color: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* shadow */
-}
+/* scrooled nav */
+/* .scrolled { */
+/* background-color: rgba(0, 0, 0, 0.8); */
+/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); shadow */
+/* } */
 
 /* section */
 section {
@@ -219,4 +220,15 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #555;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
