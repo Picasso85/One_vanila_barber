@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Moja Strona</h2>
+      <nav>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h1>Some text!</h1>
+      <p>
+        Tutaj możesz umieścić główne informacje o Twojej stronie, prezentację
+        produktów lub usług, oraz inne istotne treści.
+      </p>
+
+      <div class="featured-products">
+        <h3>Nasze produkty/usługi:</h3>
+        <ul>
+          <li>something</li>
+          <li>something 2</li>
+          <li>something 3</li>
+        </ul>
+      </div>
+
+      <div class="call-to-action">
+        <h3>Some text!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+          praesentium itaque voluptatem labore asperiores adipisci sint. Sequi,
+          quod reiciendis eos deserunt pariatur sapiente optio distinctio at
+          magnam numquam sunt quae.
+        </p>
+        <a href="#contact">contact us</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>O nas</h2>
+      <p>Trochę informacji o naszej firmie, zespołach, działalności, itp.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <form action="#" method="POST">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required />
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Wyślij" />
+      </form>
+    </section>
+  </body>
+</html>
