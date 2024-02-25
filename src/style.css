@@ -95,9 +95,9 @@ nav a:hover {
 /* section */
 section {
   padding: 20px;
-  margin-top: 60px; /* Berbezpieczny odstęp od góry */
+  margin-top: 60px;
   background-color: #f9f9f9;
-  height: 1000px; /* Dla demonstracji */
+  height: 1000px;
 }
 
 h2 {
